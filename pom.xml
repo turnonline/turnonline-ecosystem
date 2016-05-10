@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.ctoolkit.maven.archetype.turnonline</groupId>
+    <groupId>org.ctoolkit.turnonline</groupId>
     <artifactId>turnonline-parent</artifactId>
     <version>1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>TurnOnline.biz parent pom</name>
-    <description>TurnOnline.biz parent pom for use in all customer projects</description>
+    <description>TurnOnline.biz parent pom for use in all Google AppEngine customer projects</description>
     <url>https://github.com/turnonline/turnonline-parent</url>
 
     <scm>
@@ -23,7 +23,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.3</version>
+                <version>${maven-compiler-plugin.version}</version>
                 <configuration>
                     <source>1.7</source>
                     <target>1.7</target>
@@ -32,7 +32,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
-                <version>2.4</version>
+                <version>${maven-source-plugin.version}</version>
                 <executions>
                     <execution>
                         <id>attach-sources</id>
@@ -46,7 +46,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>2.5.2</version>
+                <version>${maven-release-plugin.version}</version>
             </plugin>
         </plugins>
     </build>
@@ -63,18 +63,22 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>comvai-snapshots</id>
-            <name>Comvai TurnOnline private snapshots repository</name>
-            <url>https://maven.turnonline.biz/content/repositories/snapshots/</url>
+            <id>ossrh</id>
+            <name>Central Snapshots Repository</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
             <id>ossrh</id>
+            <name>Central Release Repository</name>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
         </repository>
     </distributionManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
+        <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
+        <maven-source-plugin.version>3.0.0</maven-source-plugin.version>
         <maven-javadoc-plugin.version>2.10.3</maven-javadoc-plugin.version>
     </properties>
 
