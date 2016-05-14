@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.ctoolkit.turnonline</groupId>
     <artifactId>turnonline-parent</artifactId>
-    <version>3</version>
+    <version>4-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>TurnOnline.biz parent pom</name>
     <description>TurnOnline.biz parent pom for use in all Google AppEngine Java 1.7 customer projects</description>
@@ -14,7 +14,7 @@
         <connection>scm:git:[fetch=]git@github.com:turnonline/turnonline-parent.git</connection>
         <developerConnection>scm:git:[push=]git@github.com:turnonline/turnonline-parent.git</developerConnection>
         <url>https://github.com/turnonline/turnonline-parent</url>
-        <tag>turnonline-parent-3</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
