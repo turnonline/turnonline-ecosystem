@@ -1,2 +1,2 @@
-# turnonline-parent
-TurnOnline.biz parent pom for use in all Google AppEngine customer projects
+# turnonline-ecosystem
+TurnOnline.biz Ecosystem POM for use in all Google AppEngine customer projects

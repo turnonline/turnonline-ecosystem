@@ -2,18 +2,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.ctoolkit.turnonline</groupId>
-    <artifactId>turnonline-parent</artifactId>
+    <groupId>biz.turnonline.ecosystem</groupId>
+    <artifactId>turnonline-ecosystem</artifactId>
     <version>5-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>TurnOnline.biz parent pom</name>
-    <description>TurnOnline.biz parent pom for use in all Google AppEngine Java 1.7 customer projects</description>
-    <url>https://github.com/turnonline/turnonline-parent</url>
+    <name>TurnOnline.biz Ecosystem POM</name>
+    <description>TurnOnline.biz Ecosystem POM for use in all Google AppEngine Java 1.7 customer projects</description>
+    <url>https://github.com/turnonline/turnonline-ecosystem</url>
 
     <scm>
-        <connection>scm:git:[fetch=]git@github.com:turnonline/turnonline-parent.git</connection>
-        <developerConnection>scm:git:[push=]git@github.com:turnonline/turnonline-parent.git</developerConnection>
-        <url>https://github.com/turnonline/turnonline-parent</url>
+        <connection>scm:git:[fetch=]git@github.com:turnonline/turnonline-ecosystem.git</connection>
+        <developerConnection>scm:git:[push=]git@github.com:turnonline/turnonline-ecosystem.git</developerConnection>
+        <url>https://github.com/turnonline/turnonline-ecosystem</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -21,7 +21,7 @@
         <developer>
             <name>Aurel Medvegy</name>
             <id>medvegy</id>
-            <email>aurel.medvegy@ctoolkit.org</email>
+            <email>medvegy@turnonline.biz</email>
         </developer>
     </developers>
 
