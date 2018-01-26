@@ -1,2 +1,2 @@
 # turnonline-ecosystem
-TurnOnline.biz Ecosystem POM for use in all Google AppEngine customer projects
+TurnOnline.biz Ecosystem parent POM for use in all Google App Engine standard Java 1.8 customer projects.
