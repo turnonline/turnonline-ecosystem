@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>biz.turnonline.ecosystem</groupId>
     <artifactId>turnonline-ecosystem</artifactId>
-    <version>3</version>
+    <version>4-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>TurnOnline.biz Ecosystem POM</name>
     <description>Parent POM for use in all Java based [debug release 11 and above] public TurnOnline.biz Ecosystem projects</description>
@@ -14,7 +14,7 @@
         <connection>scm:git:[fetch=]git@github.com:turnonline/turnonline-ecosystem.git</connection>
         <developerConnection>scm:git:[push=]git@github.com:turnonline/turnonline-ecosystem.git</developerConnection>
         <url>https://github.com/turnonline/turnonline-ecosystem</url>
-        <tag>turnonline-ecosystem-3</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
