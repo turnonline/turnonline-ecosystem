@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>biz.turnonline.ecosystem</groupId>
     <artifactId>turnonline-ecosystem</artifactId>
-    <version>4-SNAPSHOT</version>
+    <version>4</version>
     <packaging>pom</packaging>
     <name>TurnOnline.biz Ecosystem POM</name>
     <description>Parent POM for use in all Java-based [debug release 11 and above] public TurnOnline.biz Ecosystem
@@ -17,7 +16,7 @@
         <connection>scm:git:[fetch=]git@github.com:turnonline/turnonline-ecosystem.git</connection>
         <developerConnection>scm:git:[push=]git@github.com:turnonline/turnonline-ecosystem.git</developerConnection>
         <url>https://github.com/turnonline/turnonline-ecosystem</url>
-        <tag>HEAD</tag>
+        <tag>turnonline-ecosystem-4</tag>
     </scm>
 
     <developers>
