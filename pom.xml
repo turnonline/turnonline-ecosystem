@@ -8,7 +8,7 @@
     <version>4-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>TurnOnline.biz Ecosystem POM</name>
-    <description>Parent POM for use in all Java based [debug release 11 and above] public TurnOnline.biz Ecosystem
+    <description>Parent POM for use in all Java-based [debug release 11 and above] public TurnOnline.biz Ecosystem
         projects
     </description>
     <url>https://github.com/turnonline/turnonline-ecosystem</url>
@@ -43,9 +43,9 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven-compiler-plugin.version}</version>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
-                    <release>11</release>
+                    <source>${jdk.version}</source>
+                    <target>${jdk.version}</target>
+                    <release>${jdk.version}</release>
                 </configuration>
             </plugin>
             <plugin>
@@ -105,11 +105,14 @@
     </distributionManagement>
 
     <properties>
+        <jdk.version>11</jdk.version>
+        <maven.compiler.target>${jdk.version}</maven.compiler.target>
+        <maven.compiler.source>${jdk.version}</maven.compiler.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
         <maven-source-plugin.version>3.3.0</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.5.0</maven-javadoc-plugin.version>
-        <maven-release-plugin.version>3.0.0</maven-release-plugin.version>
+        <maven-release-plugin.version>3.0.1</maven-release-plugin.version>
         <maven-deploy-plugin.version>3.1.1</maven-deploy-plugin.version>
         <maven-gpg-plugin.version>3.1.0</maven-gpg-plugin.version>
     </properties>
